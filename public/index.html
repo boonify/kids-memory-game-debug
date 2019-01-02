@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Kids memory game</title>
+    <meta name="description" content="Memory game">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/style.css">
+  </head>
+  <body>
+    <div class="page">
+      <header>
+        <h1>
+        Kids memory game
+          <span class="elapsed" data-bind="text: elapsed"></span>
+        </h1>
+      </header>
+  
+      <h3 class="message" data-bind="html: message"></h3>
+      <section class="board">
+        <div data-bind="foreach: cards">
+          <div class="card" data-bind="css: content, click: clicked"></div>
+        </div>
+      </section>
+    </div>
+    
+    
+    <script src="https://button.glitch.me/button.js" data-style="glitch"></script>
+    <div class="glitchButton" style="position:fixed;top:20px;right:20px;"></div>
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/knockout/3.4.0/knockout-debug.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.12.0/moment.min.js"></script>
+    <script src="/client.js"></script>
+
+  </body>
+</html>

@@ -1,0 +1,29 @@
+{
+  "name": "kids-memory-game-debug",
+  "version": "0.1.0",
+  "description": "kids memory game to debug",
+  "main": "index.js",
+  "scripts": {
+    "start": "node .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/boonify/kids-memory-game-debug.git"
+  },
+  "keywords": [
+    "debug",
+    "kids",
+    "express",
+    "node"
+  ],
+  "author": "boonify",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/boonify/kids-memory-game-debug/issues"
+  },
+  "homepage": "https://github.com/boonify/kids-memory-game-debug#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}

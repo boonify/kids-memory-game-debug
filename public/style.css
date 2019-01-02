@@ -1,0 +1,188 @@
+x/* styles */
+/* called by your view template */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 25px;
+  background-color: white;
+  color: black;
+}
+
+a, p {
+  color: black;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 48px;
+  color: white;
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 32px;
+  color: #C0C0C0;
+}
+
+h3 {
+  color: grey;
+  margin-bottom: 5px;
+}
+
+input,
+textarea {
+  border: 1px solid #C3C3C3;
+  border-radius: 3px;
+  padding: 5px;
+  font-size: 16px;
+  max-width: 240px;
+  width: 100%;
+}
+
+.button {
+  display: block;
+  margin-top: 20px;
+}
+
+.page {
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.elapsed {
+  color: gold;
+  margin-left: 190px;
+}
+
+.message {
+  width: 500px;
+  height: 2.5em;
+  color: black;
+}
+
+.time {
+  color: gold;
+}
+
+.board {
+  width: 520px;
+}
+
+.card {
+  width: 110px;
+  height: 110px;
+  background-color: black;
+  display: inline-block;
+  border-radius: 6px;
+  margin-right: 6px;
+  margin-bottom: 5px;
+  border: 4px solid black;
+  cursor: pointer;
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  background-position: center;
+  /*opacity: 1;*/
+}
+
+.card1 {
+  background-color: brown;
+}
+.card2 {
+  background-color: purple;
+}
+.card3 {
+  background-color: teal;
+}
+.card4 {
+  background-color: salmon;
+}
+.card5 {
+  background-color: yellow;
+}
+.card6 {
+  background-color: Magenta;
+}
+.card7 {
+  background-color: green;
+}
+.card8 {
+  background-color: lightgreen;
+}
+
+
+.card1frozen {
+  background-image: url("http://cdn.idigitaltimes.com/sites/idigitaltimes.com/files/styles/large/public/2014/09/29/frozen.jpg");
+}
+
+.card2frozen {
+  background-image: url("http://s2.dmcdn.net/DKEGM/1280x720-XwN.jpg");
+}
+
+.card3frozen {
+  background-image: url("http://media.virbcdn.com/cdn_images/resize_1024x1365/c5/a72fec2b3510f775-Frozen_Hans_finished.jpg");
+}
+
+.card4frozen {
+  background-image: url("https://wallpaperscraft.com/image/frozen_kristoff_main_character_93147_1600x1200.jpg");
+}
+
+.card5frozen {
+  background-image: url("http://images.m-magazine.com/uploads/posts/image/45343/disney-contemporary-resort-frozen-olaf.jpg");
+}
+
+.card6frozen {
+  background-image: url("http://mlb-s1-p.mlstatic.com/personagens-disney-en-pelucias-afins-18209-MLB20152577281_082014-Y.jpg");
+}
+
+.card7frozen {
+  background-image: url("http://img3.wikia.nocookie.net/__cb20140219173000/disney/images/8/8c/Elsa-anna-frozen-e1385489889559.jpg");
+}
+
+.card8frozen {
+  background-image: url("https://s-media-cache-ak0.pinimg.com/236x/0e/de/6e/0ede6e4853720f5e1f5ce9ac64fac4ce.jpg");
+}
+
+.card1new {
+  background-image: url("http://s3.postimg.org/jmvug7n8j/12539_1128828868050_6347189_n.jpg");
+}
+
+.card2new {
+  background-image: url("http://s3.postimg.org/jmvug7n8j/12539_1128828868050_6347189_n.jpg");
+}
+
+.card3new {
+  background-image: url("http://s3.postimg.org/jmvug7n8j/12539_1128828868050_6347189_n.jpg");
+}
+
+.card4new {
+  background-image: url("http://s3.postimg.org/jmvug7n8j/12539_1128828868050_6347189_n.jpg");
+}
+
+.card5new {
+  background-image: url("http://s3.postimg.org/jmvug7n8j/12539_1128828868050_6347189_n.jpg");
+}
+
+.card6new {
+  background-image: url("http://s3.postimg.org/jmvug7n8j/12539_1128828868050_6347189_n.jpg");
+}
+
+.card7new {
+  background-image: url("http://s3.postimg.org/jmvug7n8j/12539_1128828868050_6347189_n.jpg");
+}
+
+.card8new {
+  background-image: url("http://s3.postimg.org/jmvug7n8j/12539_1128828868050_6347189_n.jpg");
+}
+
+.hidden {
+}
+
+.paired {
+  border-color: gold;
+  cursor: default;
+}
